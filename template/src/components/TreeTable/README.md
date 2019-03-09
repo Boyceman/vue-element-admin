@@ -90,9 +90,9 @@ const columns = [
 
 ```html
 <template slot="your key" slot-scope="{scope}">
-  <el-tag>level: {{ scope.row._level }}</el-tag>
-  <el-tag>expand: {{ scope.row._expand }}</el-tag>
-  <el-tag>select: {{ scope.row._select }}</el-tag>
+  <el-tag>level: \{{ scope.row._level }}</el-tag>
+  <el-tag>expand: \{{ scope.row._expand }}</el-tag>
+  <el-tag>select: \{{ scope.row._select }}</el-tag>
 </template>
 ```
 
@@ -199,9 +199,9 @@ const columns = [
 
 ```html
 <template slot="your key" slot-scope="{scope}">
-  <el-tag>level: {{ scope.row._level }}</el-tag>
-  <el-tag>expand: {{ scope.row._expand }}</el-tag>
-  <el-tag>select: {{ scope.row._select }}</el-tag>
+  <el-tag>level: \{{ scope.row._level }}</el-tag>
+  <el-tag>expand: \{{ scope.row._expand }}</el-tag>
+  <el-tag>select: \{{ scope.row._select }}</el-tag>
 </template>
 ```
 
